@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp" />
+
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/Zaky"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@+id/icon" />
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/Aziz"
+        android:textAlignment="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/Zaky" />
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/Gilang"
+        android:textAlignment="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/Aziz" />
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/Agus"
+        android:textAlignment="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_below="@id/Gilang" />
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/Rio"
+        android:textAlignment="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_below="@id/Agus" />
+    <Button
+        android:id="@+id/bt_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Rio"
+        android:layout_margin="5dp"
+        android:text=" Oke " />
+
+</RelativeLayout>
